@@ -89,7 +89,7 @@ input{
     border-radius: 5px;
     border: 2px solid rgb(152, 152, 152);
 }
-#password , #confirm {
+#password:invalid , #confirm:invalid {
     border: 2px solid rgb(180, 0, 0);
 }
 input:focus{
